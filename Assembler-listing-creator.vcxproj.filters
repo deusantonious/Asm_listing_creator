@@ -21,9 +21,21 @@
     <ClCompile Include="Parcer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="separators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Parcer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="separators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

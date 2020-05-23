@@ -149,9 +149,13 @@
   <ItemGroup>
     <ClCompile Include="Assembler-listing-creator.cpp" />
     <ClCompile Include="Parcer.cpp" />
+    <ClCompile Include="Registers.cpp" />
+    <ClCompile Include="separators.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Parcer.h" />
+    <ClInclude Include="Registers.h" />
+    <ClInclude Include="separators.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
