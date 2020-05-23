@@ -147,12 +147,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="analisator.cpp" />
     <ClCompile Include="Assembler-listing-creator.cpp" />
+    <ClCompile Include="commands.cpp" />
+    <ClCompile Include="Directives.cpp" />
     <ClCompile Include="Parcer.cpp" />
     <ClCompile Include="Registers.cpp" />
     <ClCompile Include="separators.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="analisator.h" />
+    <ClInclude Include="commands.h" />
+    <ClInclude Include="Directives.h" />
     <ClInclude Include="Parcer.h" />
     <ClInclude Include="Registers.h" />
     <ClInclude Include="separators.h" />

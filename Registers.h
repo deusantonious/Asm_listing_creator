@@ -11,9 +11,8 @@ private:
 	{
 		std::string _name;
 		int _size;
-		Register(){}
 		Register(std::string name, int size) : _name(name), _size(size){}
 	};
-	std::list<Register> list;
+	std::list<Register> List;
 };
 

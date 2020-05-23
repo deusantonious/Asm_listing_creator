@@ -1,9 +1,9 @@
 #pragma once
-#include <vector>
+#include <list>
 class separators
 {
 private:
-	std::vector<char> Array;
+	std::list<char> List;
 public:
 	separators();
 	bool isSeparator(const char ch);
