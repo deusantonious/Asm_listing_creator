@@ -18,5 +18,13 @@
     <ClCompile Include="Assembler-listing-creator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Parcer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parcer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
