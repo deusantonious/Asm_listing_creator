@@ -9,9 +9,14 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Header Files\Lexemes_inline">
+      <UniqueIdentifier>{8c5691df-eac4-42ec-81ff-79c604cc9b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lexical and Syntaxis analis">
+      <UniqueIdentifier>{935e35d4-6aaf-4778-9792-ee105d3735b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\garbage">
+      <UniqueIdentifier>{1ee42a51-a3df-428c-9ec9-4ef5d3921b2e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,9 +29,6 @@
     <ClCompile Include="separators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Registers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="analisator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -36,25 +38,73 @@
     <ClCompile Include="commands.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lex_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="syn_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Parcer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="separators.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="identifier_mnem.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
     </ClInclude>
-    <ClInclude Include="Registers.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="identifier_user.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
     </ClInclude>
-    <ClInclude Include="analisator.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="lexeme.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
     </ClInclude>
-    <ClInclude Include="Directives.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Register.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
+    </ClInclude>
+    <ClInclude Include="directive.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
+    </ClInclude>
+    <ClInclude Include="const_number.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
+    </ClInclude>
+    <ClInclude Include="const_text.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>Header Files\Lexical and Syntaxis analis</Filter>
+    </ClInclude>
+    <ClInclude Include="syn_table.h">
+      <Filter>Header Files\Lexical and Syntaxis analis</Filter>
     </ClInclude>
     <ClInclude Include="commands.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\garbage</Filter>
+    </ClInclude>
+    <ClInclude Include="Directives.h">
+      <Filter>Header Files\garbage</Filter>
+    </ClInclude>
+    <ClInclude Include="one_symbol.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
+    </ClInclude>
+    <ClInclude Include="analisator.h">
+      <Filter>Header Files\Lexical and Syntaxis analis</Filter>
+    </ClInclude>
+    <ClInclude Include="lex_table.h">
+      <Filter>Header Files\Lexical and Syntaxis analis</Filter>
+    </ClInclude>
+    <ClInclude Include="Registers.h">
+      <Filter>Header Files\garbage</Filter>
+    </ClInclude>
+    <ClInclude Include="separators.h">
+      <Filter>Header Files\garbage</Filter>
+    </ClInclude>
+    <ClInclude Include="separator.h">
+      <Filter>Header Files\Lexemes_inline</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

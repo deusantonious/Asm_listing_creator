@@ -151,17 +151,32 @@
     <ClCompile Include="Assembler-listing-creator.cpp" />
     <ClCompile Include="commands.cpp" />
     <ClCompile Include="Directives.cpp" />
+    <ClCompile Include="lex_table.cpp" />
+    <ClCompile Include="line.cpp" />
     <ClCompile Include="Parcer.cpp" />
     <ClCompile Include="Registers.cpp" />
     <ClCompile Include="separators.cpp" />
+    <ClCompile Include="syn_table.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="analisator.h" />
     <ClInclude Include="commands.h" />
+    <ClInclude Include="directive.h" />
     <ClInclude Include="Directives.h" />
+    <ClInclude Include="identifier_mnem.h" />
+    <ClInclude Include="identifier_user.h" />
+    <ClInclude Include="lexeme.h" />
+    <ClInclude Include="lex_table.h" />
+    <ClInclude Include="line.h" />
+    <ClInclude Include="const_number.h" />
+    <ClInclude Include="one_symbol.h" />
     <ClInclude Include="Parcer.h" />
+    <ClInclude Include="Register.h" />
     <ClInclude Include="Registers.h" />
+    <ClInclude Include="separator.h" />
     <ClInclude Include="separators.h" />
+    <ClInclude Include="syn_table.h" />
+    <ClInclude Include="const_text.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
